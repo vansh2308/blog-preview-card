@@ -5,7 +5,7 @@ import profilePic from "./assets/image-avatar.webp"
 function App() {
   return (
     <main className='w-screen h-screen flex justify-center items-center '>
-      <div className='w-1/4 h-fit bg-white rounded-3xl p-5 border border-black flex flex-col gap-4 max-[750px]:w-[90%]'>
+      <div className='w-1/4 h-fit bg-white rounded-3xl p-5 border border-black flex flex-col gap-4 max-[750px]:w-[90%] container'>
         <img src={landingImg} className='w-full rounded-lg' />
         <div className='flex flex-col gap-3'>
           <span className='py-2 px-3 font-bold bg-yellow w-fit text-xs rounded-md'>Learning</span>
